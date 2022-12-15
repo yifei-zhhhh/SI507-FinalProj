@@ -1,5 +1,8 @@
 # SI507-FinalProj
 
+### Required Packages:
+pandas, numpy, requests, json, webbrowser, BeautifulSoup, re ; also need to pip install tabulate
+
 ### Data Scraping
 To scrape the data, first run movie list scraping.py, and you'll get movie_list.csv accordingly. And then run get movie info (API).py. For the API part, you'll need to ask for an API key from https://www.omdbapi.com/apikey.aspx, and stored as API_KEY to run the program. You'll get raw_movie_info.csv after running this program.
 
